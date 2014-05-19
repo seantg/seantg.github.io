@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	/*background-color:#ad0101;*/
+	/* everything basically*/
+	padding:0px;
+	background-color: #d9d9d6;
+}
+
+@media (min-width: 768px) {
+      .nav-tabs.nav-justified > li {
+        display: inline-block;
+        float: left;
+        margin-left: 100px;
+      }
+
+}
+
+
+.container {
+	
+	padding-left: 0px;
+	padding-right: 0px;
+	/* everything but the background*/
+}
+p {
+	font-size: 1.6em;
+	
+}
+footer{
+  	background-color: #ecdc9e;	
+	padding: 3%;
+	
+}
+#middle {
+	background-color: #FFF;	
+	
+	/* everything but the cover photo and footer inside the container*/
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus
+{
+	color: #000;;
+	background-color: #c0c0bc;/*#ecdc9e;
+	/* this is the color of the pill you are on */
+}
+
+a 
+{
+ 	color: #A8A8A8;
+	background-color: #d9d9d6;	
+	
+	/* color of the non-selected pills*/
+}
+.nav>li>a:hover {
+	background-color: #c0c0bc;/* #ecdc9e;
+	color:#000;
+	/* this is the sidebar when you hover over*/
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	background-color : #c0c0bc; /*#ecdc9e;
+	/* this is the top nav bar when you hover over*/	
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,
+ .navbar-default .navbar-nav>.active>a:focus {
+	background-color: #c0c0bc; /*#ecdc9e;
+	/* this is the top navbar active tab*/
+}
+
+
+#collapse 
+{
+	background-color: #d9d9d6; /* #f5fde8;
+	/* this is the top navbar*/
+	
+	
+}
+hr {
+	border-top: 1px solid #c0c0bc;
+}
+.row {
+	margin-right: 0; margin-left: 0;
+}
+
+#spanny {
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+}
+#fixedbutton {
+	
+	position: fixed;
+	bottom: 70%;
+	right:88%;
+	height: 80px;
+	width: 113px;
+	z-index:50;
+	
+}
+
+a:hover, a:focus 
+{
+	text-decoration:none;
+	color: #A8A8A8;
+	
+		
+}
+.navbar {
+	
+	margin-bottom: 0px;
+}
+#altlink
+ {
+	color: #A8A8A8;
+	 background-color:#ecdc9e; 
+	 text-decoration:none;
+}
+
+.panel-default>.panel-heading
+{
+	
+	background-color: 	#f5fde8;
+}
+/* colors - #f5fde8 (lighter), #ad0101 (red), # ecdc9e (darker) */
