@@ -6,16 +6,128 @@ body {
 	padding:0px;
 	background-color: #d9d9d6;
 }
+h2{
+	font-weight: semi-bold;
+	
+}
 
-@media (min-width: 768px) {
-      .nav-tabs.nav-justified > li {
+#poop{
+	position: relative;
+	background-color: #9d2235;
+	
+}
+/* Large desktop */
+@media (min-width: 1131px) {
+	 #text {
+	   padding-top:3%; 
+	   padding-bottom: 2%;
+	   height: 70vh;
+	 }
+	 #title {
+	   font-size: 3.6em;
+	 }
+	 
+	 #tagline {
+	   font-size: 1.8em;
+	 }
+	 
+	 p {
+         font-size: 1.6em;
+     }
+     h2{
+        font-size: 2.4em;
+     }
+    
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1130px) {
+    #title {
+        font-size: 3em;
+    }
+    #tagline {
+       font-size: 1.4em;
+     }
+      p {
+         font-size: 1.4em;
+     }
+     h2{
+        font-size: 2em;
+     }
+     #text {
+       padding-top:3%; 
+       padding-bottom: 4%;
+       height: 65vh;
+     }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+ .nav-tabs.nav-justified > li {
         display: inline-block;
         float: left;
         margin-left: 100px;
       }
-
+      #title {
+        font-size: 2.4em;
+      }
+      #tagline {
+       font-size: 1.2em;
+     }
+      p {
+         font-size: 1.2em;
+     }
+     h2{
+        font-size: 1.8em;
+     }
+     #text {
+       padding-top:2%; 
+       padding-bottom: 3%;
+       height:60vh;
+     }
+      
 }
-
+/* Landscape phones and down */
+@media (max-width: 480px) {
+        #title {
+            font-size: 1.8em;
+        }
+        #tagline {
+       font-size: 1em;
+     }
+     #text {
+       padding-top:2%; 
+       padding-bottom: 3%;
+       height: 70vh;
+     }
+        
+       p {
+         font-size: 1.2em;
+     }  
+     h2{
+        font-size: 1.8em;
+     }
+}
+/* Tiny Phones */
+@media (max-width: 420px){
+	
+	   #title {
+            font-size: 1.8em;
+        }
+        #tagline {
+       font-size: 1em;
+     }
+     #text {
+       padding-top:2%; 
+       padding-bottom: 3%;
+       height: 90vh;
+     }
+        
+       p {
+         font-size: 1.2em;
+     }  
+     h2{
+        font-size: 1.8em;
+     }
+}
 
 .container {
 	
@@ -23,10 +135,7 @@ body {
 	padding-right: 0px;
 	/* everything but the background*/
 }
-p {
-	font-size: 1.6em;
-	
-}
+
 footer{
   	background-color: #ecdc9e;	
 	padding: 3%;
@@ -72,6 +181,10 @@ a
 	background-color: #d9d9d6; /* #f5fde8;
 	/* this is the top navbar*/
 	
+	
+}
+#text{
+	background-color: #d9d9d6;
 	
 }
 hr {
@@ -122,7 +235,10 @@ a:hover, a:focus
 	 background-color:#ecdc9e; 
 	 text-decoration:none;
 }
-
+#mobilebox {
+	
+	background-color: #9d2235;
+}
 .panel-default>.panel-heading
 {
 	
