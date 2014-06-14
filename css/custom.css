@@ -10,7 +10,10 @@ h2{
 	font-weight: semi-bold;
 	
 }
-
+small {
+    text-color:#9d2235;
+    color:#9d2235;
+}
 #poop{
 	position: relative;
 	background-color: #9d2235;
@@ -202,6 +205,10 @@ hr {
 	left:0;
 	z-index:1;
 }
+#mobilenav {
+	background-color: #c0c0bc;
+	color: #c0c0bc;
+}
 #redline {
 	background-color: #9d2235;
 	padding-top:.25%; 
@@ -226,7 +233,7 @@ a:hover, a:focus
 }
 
 .navbar {
-	
+	background-color: #d9d9d6;
 	margin-bottom: 0px;
 }
 #altlink
@@ -242,6 +249,6 @@ a:hover, a:focus
 .panel-default>.panel-heading
 {
 	
-	background-color: 	#f5fde8;
+	background-color: #d9d9d6;	/*#f5fde8;
 }
 /* colors - #f5fde8 (lighter), #ad0101 (red), # ecdc9e (darker) */
