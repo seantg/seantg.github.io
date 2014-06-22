@@ -155,8 +155,12 @@ footer{
 	background-color: #c0c0bc;/*#ecdc9e;
 	/* this is the color of the pill you are on */
 }
-
-a 
+#mobi {
+	
+	font-color:black;
+	color: black;
+}
+a
 {
  	color: #A8A8A8;
 	background-color: #d9d9d6;	
