@@ -19,6 +19,12 @@ small {
 	background-color: #9d2235;
 	
 }
+
+h4 {
+	font-size: 2em;
+	font-weight: semi-bold;
+	
+}
 /* Large desktop */
 @media (min-width: 1131px) {
 	 #text {
@@ -178,7 +184,7 @@ a
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,
  .navbar-default .navbar-nav>.active>a:focus {
-	background-color: #c0c0bc; /*#ecdc9e;
+	 /*#ecdc9e;
 	/* this is the top navbar active tab*/
 }
 
@@ -188,6 +194,11 @@ a
 	background-color: #d9d9d6; /* #f5fde8;
 	/* this is the top navbar*/
 	
+	
+}
+
+#pic {
+	background-color: black;
 	
 }
 #text{
