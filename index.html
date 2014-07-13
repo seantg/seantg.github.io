@@ -49,7 +49,7 @@
        
        </div>-->
        
-       <div class="row" style=" height:95vh; padding-top:1%; position: relative;" id="frontpage" > <!-- text-align: center; -->
+       <div class="row" id="frontpage" > <!-- text-align: center; -->
            <div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center " style="position: absolute; top: 67%;">
 		       <h1  style="color:white; " id="title"><!-- padding:50%;-->
 		        Virginia Tech, Class of 2016 </h1>
@@ -62,8 +62,8 @@
             
        <div class="row hidden-xs " id="text" >
        
-       <div  style=" width: 50em; float: none; margin: 0 auto; ">
-	       <h2>Ring Tradition</h2>
+           <div  style=" width: 50em; float: none; margin: 0 auto; ">
+	       <h2>What is the Ring Tradition?</h2>
 	       <p>The Virginia Tech Ring Tradition traces back for over 100 years. 
 	       Every year, the Class Ring is redesigned by students and tailored to
 	        the characteristics of their respective class. The ring is then 
@@ -74,6 +74,8 @@
 	       
 	       <p>Below highlights the individual parts of the tradition, 
 	       as well as the group of students who work to put it all together.</p>
+	       
+	      
        </div>
        </div>
        
@@ -125,6 +127,7 @@
        <p><a href="#" id="mobi"><b>The Leadership Team</b></a></p>
        <p><a href="#" id="mobi">You can also check out our Facebook and Twitter pages for the
                latest information. The links are shown below!  <small>Learn More</small></a></p>
+               <p></p>
        </div>
        
        <!--  MOBILE END -->
@@ -178,31 +181,37 @@
        
          END -->
          
+                
+       
+       <div class="row hidden-xs"  id="collapse">
+           <div class="col-lg-4 col-md-4 col-sm-4" id="RingDance">
+            <a href="#"><span id="spanny"></span></a>
+           <h4 id="tile" ><!-- "padding-top:37%; color:white; padding-bottom:25%; padding-left:30%;" -->
+          Ring Dance</h4>
+           
+           </div>
+           
+           <div class="col-lg-4 col-md-4 col-sm-4"  id="Concert">
+           
+            <a href="#"><span id="spanny"></span></a>
+           <h4 id="tile">
+          Kickoff Concert</h4>
+           
+           </div>
+           
+           <div class="col-lg-4 col-md-4 col-sm-4 " id="RingPremiere">
+            <a href="#"><span id="spanny"></span></a>
+           <h4 id="tile" >
+          Ring Premiere</h4>
+          
+           </div>
+       
+       </div>
+       
          
-	  <div class="row hidden-xs" >
-	       
-	               <div class="col-lg-4 col-md-4 col-sm-4 "  id="Concert">
-	                <a href="#"><span id="spanny"></span></a>
-	               <h4 style="height: 40vh; width:33.3333vw; line-height: 70vh; color:white;" >
-	               Kickoff Concert</h4>
-	               
-	               </div>
-	               
-	               <div class=" col-lg-4  col-md-4 col-sm-4 "  id="RingPremiere">
-	                <a href="#"><span id="spanny"></span></a>
-	               <h4 style="height: 40vh; width:33.3333vw; line-height: 70vh; color:white;">
-	               Ring Premiere</h4>
-	               
-	               </div>
-	               
-	              <div class="col-lg-4 col-md-4 col-sm-4 "  id="RingDance">
-	               <a href="#"><span id="spanny"></span></a>
-	              <h4 style="height: 40vh; width:33.3333vw; line-height: 70vh; color:white;" >
-	              Ring Dance</h4>
-	           
-	              </div>
-	       
-	    </div>
+
+	    
+	   
        
       
        
@@ -230,7 +239,7 @@
        <div class="row hidden-xs" id="collapse">
 	       <div class="col-lg-4 col-md-4 col-sm-4 " id="DanceCom">
 	        <a href="#"><span id="spanny"></span></a>
-	       <h4 style="height: 40vh; width:33.3333vw; color:white; line-height: 70vh;;" ><!-- "padding-top:37%; color:white; padding-bottom:25%; padding-left:30%;" -->
+	       <h4 id="tile" ><!-- "padding-top:37%; color:white; padding-bottom:25%; padding-left:30%;" -->
 	       Ring Dance Committee</h4>
 	       
 	       </div>
@@ -238,14 +247,14 @@
 	       <div class="col-lg-4 col-md-4 col-sm-4 "  id="DesignCom">
 	       
 	        <a href="#"><span id="spanny"></span></a>
-	       <h4 style="height: 40vh; width:33.3333vw; line-height: 70vh; color:white;">
+	       <h4 id="tile">
 	       Ring Design Committee</h4>
 	       
 	       </div>
 	       
 	       <div class="col-lg-4 col-md-4 col-sm-4 " id="LeadershipCom">
 	        <a href="#"><span id="spanny"></span></a>
-	       <h4 style="height: 40vh; width:33.3333vw; line-height: 70vh;; color:white;" >
+	       <h4 id="tile" >
 	       Leadership Committee</h4>
 	      
 	       </div>
@@ -304,7 +313,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.backstretch.min.js"></script>
    <script> $("#frontpage").backstretch("img/FP2D.jpg");$("#RingDance").backstretch("img/danceE.jpg"); $("#RingPremiere").backstretch("img/ringpremiereE.jpg"); $("#Concert").backstretch("img/KickoffE.jpg");$("#ConcertSM").backstretch("img/Kickoff.jpg")</script>
-    <script>$("#DanceCom").backstretch("img/DanceComE.jpg");$("#DesignCom").backstretch("img/DesignComE.jpg");$("#LeadershipCom").backstretch("img/LeadershipComE.jpg"); </script>
+    <script>$("#DanceCom").backstretch("img/DanceCom.jpg");$("#DesignCom").backstretch("img/DesignCom.jpg");$("#DanceM").backstretch("img/DesignCom.jpg");$("#LTeamM").backstretch("img/LeadershipCom.jpg");$("#ContactM").backstretch("img/DesignCom.jpg");$("#PremiereM").backstretch("img/DesignCom.jpg"); $("#LeadershipCom").backstretch("img/LeadershipCom.jpg"); </script>
  <script>
     
     
@@ -362,7 +371,7 @@
 
     
 </script>
-<script src="js/viewport-units-buggyfill.js"></script>
+<script src="viewport-units-buggyfill.js"></script>
 <script>window.viewportUnitsBuggyfill.init();</script>
 
   </body>
