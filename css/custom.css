@@ -203,6 +203,7 @@ a
 	height:95vh; 
 	padding-top:1%; 
 	position: relative;
+	max-height: 100vh;
 }
 
 #collapse 
