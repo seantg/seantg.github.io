@@ -20,10 +20,20 @@ small {
 	
 }
 
+#tile {
+	height: 40vh;  
+	color:white; 
+	line-height: 70vh;
+}
 h4 {
-	font-size: 2em;
+	font-size: 1.3em;
 	font-weight: semi-bold;
 	
+}
+
+#redd {
+	
+	background-color: #ad0101;
 }
 /* Large desktop */
 @media (min-width: 1131px) {
@@ -188,6 +198,12 @@ a
 	/* this is the top navbar active tab*/
 }
 
+#frontpage {
+	
+	height:95vh; 
+	padding-top:1%; 
+	position: relative;
+}
 
 #collapse 
 {
@@ -232,7 +248,7 @@ hr {
 	
 	position: fixed;
 	bottom: 70%;
-	right:88%;
+	right:8%;
 	height: 80px;
 	width: 113px;
 	z-index:50;
@@ -245,6 +261,10 @@ a:hover, a:focus
 	color: #A8A8A8;
 	
 	
+}
+#redd:hover, #redd:focus {
+	
+	opacity:.7;
 }
 
 .navbar {
