@@ -7,18 +7,19 @@ body {
     background-color: #DEDFE2;
 
 }
-#vr {
+.vr {
 	   transform:rotate(90deg);
        -ms-transform:rotate(90deg);
        -webkit-transform:rotate(90deg); 
-      width:7vh; 
-      height: 6vh;
+      width:14px; 
       border-top: 2px solid #897966;
 }
 h2{
 	font-weight: semi-bold;
 	
 }
+
+
 p {
 	font-color: #222;
 	
@@ -27,17 +28,8 @@ small {
     text-color:#9d2235;
     color:#9d2235;
 }
-#poop{
-	position: relative;
-	background-color: #9d2235;
-	
-}
 
-#tile {
-	height: 40vh;  
-	color:white; 
-	line-height: 70vh;
-}
+
 h4 {
 	font-size: 1.3em;
 	font-weight: semi-bold;
@@ -47,21 +39,44 @@ h4 {
 	font-family: 'Tangerine', cursive;
 }
 
-#redd {
+
+@media all and (orientation: portrait) {
+	#xvilogo {
+		position: absolute; 
+		height: 40vh;
+		padding-top: 30%;
+	}
 	
-	background-color: #ad0101;
 }
+
+@media all and (orientation: landscape) {
+    
+    #xvilogo {
+	    position: absolute; 
+	    height:90vh; 
+	    padding-top: 2%;
+    }
+}
+
 /* Large desktop */
 @media (min-width: 1131px) {
 	 #text {
 	   padding-top:3%; 
 	   padding-bottom: 2%;
-	  /* height: 70vh;*/
+	
 	 }
 	 #title {
 	   font-size: 3.6em;
 	 }
 	 
+	  .article {
+        width: 60em;
+         float: none; 
+         margin: 0 auto;
+    }
+    
+    
+        
 	 #tagline {
 	   font-size: 1.8em;
 	 }
@@ -80,14 +95,20 @@ h4 {
     #title {
         font-size: 3em;
     }
-    #tagline {
-       font-size: 1.4em;
-     }
+    
       p {
          font-size: 1.4em;
      }
+    
+     
+      .article {
+        width: 45em;
+         float: none; 
+         margin: 0 auto;
+    }  
+  
      h2{
-        font-size: 2em;
+        font-size: 4em;
      }
      #text {
        padding-top:3%; 
@@ -105,14 +126,25 @@ h4 {
       #title {
         font-size: 2.4em;
       }
-      #tagline {
-       font-size: 1.2em;
+      
+      
+        .article {
+        width: 35em;
+         float: none; 
+         margin: 0 auto;
      }
+    
+      
       p {
          font-size: 1.2em;
      }
+     
+      h3 {
+      font-size: 1.2em; 
+    } 
+    
      h2{
-        font-size: 1.8em;
+        font-size: 3em;
      }
      #text {
        padding-top:2%; 
@@ -129,47 +161,47 @@ h4 {
         #tagline {
        font-size: 1em;
      }
+     
+    .article {
+        width: 25em;
+         float: none; 
+         margin: 0 auto;
+     }
+      h3 {
+      font-size: 1.2em; 
+    }
+     
      #text {
        padding-top:2%; 
        padding-bottom: 3%;
-       height: 70vh;
+       
      }
         
        p {
          font-size: 1.2em;
      }  
      h2{
-        font-size: 1.8em;
+        font-size: 2.5em;
      }
 }
-/* Tiny Phones */
-@media (max-width: 420px){
-	
-	   #title {
-            font-size: 1.8em;
-        }
-        #tagline {
-       font-size: 1em;
-     }
-     #text {
-       padding-top:2%; 
-       padding-bottom: 3%;
-       height: 90vh;
-     }
-        
-       p {
-         font-size: 1.2em;
-     }  
-     h2{
-        font-size: 1.8em;
-     }
-}
+
 
 .container {
 	
 	padding-left: 0px;
 	padding-right: 0px;
 	/* everything but the background*/
+}
+
+#alertblock {
+	height: 12vh;
+}
+
+
+
+.icons {
+	width: 5vw;
+	height: inherit;
 }
 
 ul, .dropdown-menu {
@@ -182,6 +214,8 @@ ul, .dropdown-menu {
 	background-color: #b04e5d;
     border-color: #b04e5d;
     color: #DEDFE2;
+    font-size: 14px;
+    max-width: 70vw;
 }
 
 footer{
@@ -189,30 +223,22 @@ footer{
 	padding: 3%;
 	
 }
-#middle {
-	background-color: #FFF;	
-	
-	/* everything but the cover photo and footer inside the container*/
-}
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus
 {
 	color: #000;
 	background-color: #c0c0bc;/*#ecdc9e;
 	/* this is the color of the pill you are on */
 }
-#mobi {
-	
-	font-color:black;
-	color: black;
+
+object {
+	pointer-events: none;
 }
 
-
-a
-{
- 	color: #A8A8A8;
-	background-color: #DEDFE2;	
+.footer-text {
+	color: #A8A8A8;
+    background-color: #DEDFE2;  
 	
-	/* color of the non-selected pills*/
 }
 .nav>li>a:hover {
 	background-color: #c0c0bc;/* #ecdc9e;
@@ -235,33 +261,44 @@ a
 	padding-top:1%; 
 	position: relative;
 }
-#RingDance {
+.picture {
 	
 	height:90vh; 
     padding-top:1%; 
     position: relative;
 }
 
-#Concert {
-    
-    height:90vh; 
-    padding-top:1%; 
+
+.video-container {
     position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
 }
 
-#RingPremiere {
-    
-    height:90vh; 
-    padding-top:1%; 
-    position: relative;
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-#collapse 
-{
-	background-color: #DEDFE2; /* #f5fde8;
-	/* this is the top navbar*/
 
+
+
+
+#teamphotos {
+	
+	margin: 7.5vw;
+	
 }
+
+
+.thumb-img { margin: 0 auto; position:relative; height: 30vh; width: 97%; overflow: hidden; }
+.thumb-img img { position: absolute; right: 0; top: 0; width: 100%;}
 
 #pic {
 	background-color: black;
@@ -275,36 +312,14 @@ a
 hr {
 	border-top: 1px solid #c0c0bc;
 }
-.row {
-	margin-right: 0; margin-left: 0;
-}
+ .row { 
+ 	margin-right: 0; margin-left: 0; 
+} 
 
-#spanny {
-	position: absolute;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	z-index:1;
-}
-#mobilenav {
-	background-color: #c0c0bc;
-	color: #c0c0bc;
-}
-#redline {
-	background-color: #9d2235;
-	padding-top:.25%; 
-}
-#fixedbutton {
-	
-	position: fixed;
-	bottom: 70%;
-	right:8%;
-	height: 80px;
-	width: 113px;
-	z-index:50;
-	
-}
+
+
+
+
 
 a:hover, a:focus 
 {
@@ -332,25 +347,9 @@ a:hover, a:focus
     color: #DEDFE2;
 }
 
-#redd:hover, #redd:focus {
-	
-	opacity:.7;
-}
 
-.navbar {
-	background-color: #DEDFE2;
-	margin-bottom: 0px;
-}
-#altlink
- {
-	color: #A8A8A8;
-	 background-color:#ecdc9e; 
-	 text-decoration:none;
-}
-#mobilebox {
-	
-	background-color: #9d2235;
-}
+
+
 .panel-default>.panel-heading
 {
 	
