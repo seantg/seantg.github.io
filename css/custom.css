@@ -44,7 +44,6 @@ h4 {
 	#xvilogo {
 		position: absolute; 
 		height: 40vh;
-		min-height: 200px;
 		padding-top: 30%;
 	}
 	
@@ -54,10 +53,14 @@ h4 {
     
     #xvilogo {
 	    position: absolute; 
-	    height:90vh; 
-	    min-height: 200px;
+	    height:90vh;
 	    padding-top: 2%;
     }
+}
+
+#xvilogo {
+	 min-height: 200px;
+	
 }
 
 /* Large desktop */
