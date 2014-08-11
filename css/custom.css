@@ -44,8 +44,8 @@ h4 {
 	#xvilogo {
 		position: absolute; 
 		height: 40vh;
-		padding-top: 30%;
 		min-height: 200px;
+		padding-top: 30%;
 	}
 	
 }
@@ -55,8 +55,8 @@ h4 {
     #xvilogo {
 	    position: absolute; 
 	    height:90vh; 
-	    padding-top: 2%;
 	    min-height: 200px;
+	    padding-top: 2%;
     }
 }
 
@@ -68,7 +68,7 @@ h4 {
 	
 	 }
 	 #title {
-	   font-size: 3.6em;
+	   font-size: 5em;
 	 }
 	 
 	  .article {
@@ -94,14 +94,15 @@ h4 {
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1130px) {
-    #title {
-        font-size: 3em;
-    }
+ 
     
       p {
          font-size: 1.4em;
      }
     
+    #title {
+       font-size: 4em;
+     }
      
       .article {
         width: 45em;
@@ -125,10 +126,10 @@ h4 {
         float: left;
         margin-left: 100px;
       }
+  
       #title {
-        font-size: 2.4em;
-      }
-      
+       font-size: 3.5em;
+     }
       
         .article {
         width: 35em;
@@ -157,13 +158,17 @@ h4 {
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-        #title {
-            font-size: 1.8em;
-        }
+      
         #tagline {
        font-size: 1em;
      }
      
+     #title {
+       font-size: 3.5em;
+     }
+     h1 {
+        font-size: 18px;     
+     }
     .article {
         width: 25em;
          float: none; 
