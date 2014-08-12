@@ -42,6 +42,11 @@ h4 {
 	font-family: 'Tangerine', cursive;
 }
 
+@media (max-height: 480px) and (orientation: portrait) {
+	.caption {
+	   height:35vh;
+	}
+}
 
 @media all and (orientation: portrait) {
 	#xvilogo {
