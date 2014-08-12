@@ -46,7 +46,16 @@ h4 {
 	.caption {
 	   height:35vh;
 	}
-}
+	
+	.caption h3 {
+	   font-size: 1em;
+	}
+	.caption p {
+	   font-size: .8em;
+	}
+	
+	
+} 
 
 @media all and (orientation: portrait) {
 	#xvilogo {
