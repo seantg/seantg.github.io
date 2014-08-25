@@ -15,6 +15,20 @@ body {
       border-top: 2px solid #897966;
 }
 
+/* .thumb-img {
+	
+	height:auto;
+} */
+
+
+.imgur {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 0;
+  padding: 80% 0 0 0;
+  overflow: hidden;
+}
 
 
 h2{
@@ -64,6 +78,17 @@ h4 {
 		padding-top: 30%;
 	}
 	
+	#aa {
+        width:45vw;
+        height: auto; 
+        padding-top: 70vh;
+      
+    }
+    
+    #frontpage {
+        height: 100vh;
+    }
+	
 }
 
 @media all and (orientation: landscape) {
@@ -73,14 +98,40 @@ h4 {
 	    height:90vh; 
 	    padding-top: 2%;
     }
+    
+    #aa {
+        width:20vw;
+        height: auto; 
+        padding-top: 90vh;
+        
+    }
+    #frontpage {
+        height: 120vh;
+    }
 }
 
 #xvilogo {
 	 min-height: 200px;
 	}
+	
+#aa {
+     min-width: 125px;
+     
+    }
 
-
-.thumb-img img { position: absolute; right: 0; top: 0; height: 100%;}
+.thumbnail img { 
+	max-width: 100%; 
+	display:block; 
+	height: auto; 
+	margin: 0 auto;  
+	overflow: hidden;
+	position: absolute;
+	  max-height: 100%;
+	  left: 0;
+	  right: 0;
+	  top: 0;
+	  bottom: 0;
+} 
 
 
 /* Large desktop */
@@ -100,7 +151,7 @@ h4 {
          margin: 0 auto;
     }
     
-    .thumb-img { margin: 0 auto; position:relative; height: 30vh; width: 97%; overflow: hidden; }
+    
         
 	 #tagline {
 	   font-size: 1.8em;
@@ -118,7 +169,7 @@ h4 {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1130px) {
  
-    .thumb-img { margin: 0 auto; position:relative; height: 30vh; width: 97%; overflow: hidden; }
+    
     
       p {
          font-size: 1.4em;
@@ -151,7 +202,7 @@ h4 {
         margin-left: 100px;
       }
   
-    .thumb-img { margin: 0 auto; position:relative; height: 25vh; width: 97%; overflow: hidden; }
+   
   
       #title {
        font-size: 3.5em;
@@ -192,7 +243,7 @@ h4 {
        font-size: 1em;
      }
      
-     .thumb-img { margin: 0 auto; position:relative; height: 20vh; width: 97%; overflow: hidden; }
+    
      
      #title {
        font-size: 3.5em;
@@ -297,7 +348,6 @@ object {
 
 #frontpage {
 	
-	height:95vh; 
 	padding-top:1%; 
 	position: relative;
 }
